@@ -320,9 +320,9 @@ footer .lists ul a li {
   padding-bottom: 24px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .container {
-    width: 375px;
+    width: 345px;
   }
   .until p {
     font-family: "Oswald";
