@@ -1,0 +1,622 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+.until p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 168%;
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 10px 0;
+  background-color: #fbfbfb;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 25px;
+  background-color: #fff;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+}
+header .nav-images a {
+  margin-left: 20px;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+  background-color: #000;
+}
+.section .portion h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 126px;
+  margin-left: 80px;
+  margin-top: 55px;
+  color: #fff;
+}
+.section .portion p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 167.5%;
+  margin-bottom: 80px;
+  max-width: 600px;
+  width: 100%;
+  margin-left: 80px;
+  color: #fff;
+}
+
+.dumbbells {
+  display: flex;
+  flex: 1;
+  background-color: #000;
+}
+.dumbbells .portion {
+  order: 4;
+  margin-top: 120px;
+}
+.dumbbells .portion p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 167.5%;
+  margin-bottom: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin-left: 80px;
+  color: #fff;
+  width: 400px;
+}
+.dumbbells .portion .sed {
+  max-width: 400px;
+  width: 100%;
+}
+.dumbbells .portion-1 {
+  order: 1;
+  margin-left: 80px;
+}
+
+.perfect {
+  display: flex;
+  flex: 1;
+  background-color: #000;
+  padding-bottom: 80px;
+}
+.perfect [alt=tren-2] {
+  margin-top: 160px;
+}
+.perfect h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 143%;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 517px;
+  width: 100%;
+  margin-left: 80px;
+  margin-top: 260px;
+}
+
+.menu h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.menu .cards {
+  margin-top: 42px;
+  margin-left: 40px;
+  display: flex;
+  flex: 1;
+  gap: 16px;
+  margin-right: 40px;
+}
+.menu .cards .card-1 h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 168%;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+.menu .cards .card-1 p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 168%;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #353535;
+  margin-bottom: 94px;
+}
+.menu .cards .card-1 .free {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 167.5%;
+  background-color: #fff;
+  padding: 4px 7px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 80px 204px 24px 155px;
+  display: flex;
+}
+footer p {
+  position: absolute;
+  font-size: 250px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 700;
+  z-index: 9;
+  transform: translateX(-210px);
+}
+footer .footer-icons {
+  position: relative;
+  z-index: 99;
+}
+footer .footer-icons a {
+  margin-right: 20px;
+}
+footer .footer-icons a i {
+  opacity: 0.6;
+}
+footer h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+}
+footer form {
+  position: relative;
+  z-index: 99;
+}
+footer form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 16px;
+  padding-right: 300px;
+  margin-bottom: 28px;
+}
+footer form input::-moz-placeholder {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141.8%;
+  color: #000000;
+  opacity: 0.5;
+}
+footer form input:-ms-input-placeholder {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141.8%;
+  color: #000000;
+  opacity: 0.5;
+}
+footer form input::placeholder {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141.8%;
+  color: #000000;
+  opacity: 0.5;
+}
+footer form i {
+  cursor: pointer;
+}
+footer form button {
+  all: unset;
+  transform: translateX(-20px);
+}
+footer .lists {
+  margin-left: 105px;
+  display: flex;
+}
+footer .lists .list-2 {
+  margin-left: 100px;
+}
+footer .lists strong {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  color: #353535;
+}
+footer .lists ul {
+  list-style: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 167.5%;
+  color: #7e7e7e;
+  max-width: 144px;
+  width: 100%;
+}
+footer .lists ul a li {
+  margin-top: 12px;
+}
+
+.copyright {
+  background-color: #f1f1f1;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 167.5%;
+  color: #c4c4c4;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .until p {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 168%;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 10px 0;
+    background-color: #fbfbfb;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 25px;
+    background-color: #fff;
+  }
+  header nav {
+    display: none;
+  }
+  header .nav-images [alt=search] {
+    display: none;
+  }
+  header .nav-images [alt=account] {
+    display: none;
+  }
+  .section {
+    display: block;
+    background-color: #000;
+  }
+  .section .portion h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 45px;
+    margin-left: 16px;
+    margin-bottom: 19px;
+    color: #fff;
+  }
+  .section .portion p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167.5%;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+    max-width: 343px;
+    width: 100%;
+  }
+  .dumbbells {
+    display: flex;
+    background-color: #000;
+    flex-direction: column;
+  }
+  .dumbbells .portion {
+    margin-top: 0px;
+  }
+  .dumbbells .portion p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 167.5%;
+    margin-bottom: 20px;
+    max-width: 325px;
+    width: 100%;
+    margin-left: 16px;
+    color: #fff;
+  }
+  .dumbbells .portion .sed {
+    max-width: 325px;
+    width: 100%;
+  }
+  .dumbbells .portion-1 {
+    margin-left: 16px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    max-width: 343px;
+    width: 100%;
+  }
+  .perfect {
+    display: block;
+    background-color: #000;
+    padding-bottom: 40px;
+  }
+  .perfect [alt=tren-2] {
+    margin-top: 0;
+    margin-left: 16px;
+    max-width: 343px;
+    width: 100%;
+  }
+  .perfect h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    max-width: 343px;
+    width: 100%;
+    margin-left: 16px;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 24px;
+  }
+  .menu h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 168%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 80px;
+  }
+  .menu .cards {
+    margin-top: 42px;
+    margin-left: 40px;
+    display: block;
+    flex: 1;
+    gap: 16px;
+    margin-right: 40px;
+  }
+  .menu .cards .card-1 h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 168%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  .menu .cards .card-1 p {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 168%;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #353535;
+    margin-bottom: 94px;
+  }
+  .menu .cards .card-1 .free {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167.5%;
+    background-color: #fff;
+    padding: 4px 7px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+  footer {
+    background-color: #f1f1f1;
+    padding: 40px 0 20px 16px;
+    display: block;
+  }
+  footer p {
+    display: none;
+    position: absolute;
+    font-size: 150px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+    transform: translateY(620px);
+  }
+  footer .footer-icons {
+    position: relative;
+    z-index: 99;
+  }
+  footer .footer-icons a {
+    margin-right: 20px;
+  }
+  footer .footer-icons a i {
+    opacity: 0.6;
+  }
+  footer h2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+  }
+  footer form {
+    position: relative;
+    z-index: 99;
+  }
+  footer form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 16px;
+    padding-right: 154px;
+    margin-bottom: 28px;
+  }
+  footer form input::-moz-placeholder {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141.8%;
+    color: #000000;
+    opacity: 0.5;
+  }
+  footer form input:-ms-input-placeholder {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141.8%;
+    color: #000000;
+    opacity: 0.5;
+  }
+  footer form input::placeholder {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141.8%;
+    color: #000000;
+    opacity: 0.5;
+  }
+  footer form i {
+    cursor: pointer;
+  }
+  footer form button {
+    all: unset;
+    transform: translateX(-20px);
+  }
+  footer .lists {
+    margin-left: 0;
+    display: block;
+    margin-top: 42px;
+  }
+  footer .lists .list-2 {
+    margin-left: 0;
+    margin-top: 25px;
+    z-index: 3;
+  }
+  footer .lists strong {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    color: #353535;
+  }
+  footer .lists ul {
+    list-style: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 167.5%;
+    color: #7e7e7e;
+    max-width: 144px;
+    width: 100%;
+  }
+  footer .lists ul a li {
+    margin-top: 12px;
+  }
+  .copyright {
+    background-color: #f1f1f1;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 167.5%;
+    color: #c4c4c4;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 24px;
+  }
+}/*# sourceMappingURL=main.css.map */

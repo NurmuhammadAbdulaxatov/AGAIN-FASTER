@@ -1,0 +1,328 @@
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .until {
+    p {
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 168%;
+      text-align: center;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      padding: 10px 0;
+      background-color: #fbfbfb;
+    }
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 25px;
+    background-color: #fff;
+
+    nav {
+      display: none;
+    }
+
+    .nav-images {
+      [alt="search"] {
+        display: none;
+      }
+
+      [alt="account"] {
+        display: none;
+      }
+    }
+  }
+
+  .section {
+    display: block;
+    background-color: #000;
+
+    .portion {
+      h1 {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 130%;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-top: 0;
+        padding-top: 45px;
+        margin-left: 16px;
+        margin-bottom: 19px;
+        color: #fff;
+      }
+
+      p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167.5%;
+        margin-left: 16px;
+        margin-bottom: 20px;
+        color: #fff;
+        max-width: 343px;
+        width: 100%;
+      }
+    }
+  }
+
+  .dumbbells {
+    display: flex;
+    background-color: #000;
+    flex-direction: column;
+
+    .portion {
+      margin-top: 0px;
+
+      p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 167.5%;
+        margin-bottom: 20px;
+        max-width: 325px;
+        width: 100%;
+        margin-left: 16px;
+        color: #fff;
+      }
+
+      .sed {
+        max-width: 325px;
+        width: 100%;
+      }
+    }
+
+    .portion-1 {
+      margin-left: 16px;
+      margin-top: 40px;
+      margin-bottom: 24px;
+      max-width: 343px;
+      width: 100%;
+    }
+  }
+
+  .perfect {
+    display: block;
+    background-color: #000;
+    padding-bottom: 40px;
+
+    [alt="tren-2"] {
+      margin-top: 0;
+      margin-left: 16px;
+      max-width: 343px;
+      width: 100%;
+    }
+
+    h2 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      max-width: 343px;
+      width: 100%;
+      margin-left: 16px;
+      margin-top: 0;
+      padding-top: 80px;
+      padding-bottom: 24px;
+    }
+  }
+
+  .menu {
+    h2 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 168%;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-align: center;
+      margin-left: 0;
+      margin-top: 80px;
+    }
+
+    .cards {
+      margin-top: 42px;
+      margin-left: 40px;
+      display: block;
+      flex: 1;
+      gap: 16px;
+      margin-right: 40px;
+
+      .card-1 {
+        h3 {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 168%;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          margin-top: 8px;
+        }
+
+        p {
+          font-family: "Oswald";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 168%;
+          letter-spacing: 0.16em;
+          text-transform: uppercase;
+          color: #353535;
+          margin-bottom: 94px;
+        }
+
+        .free {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 167.5%;
+          background-color: #fff;
+          padding: 4px 7px;
+          position: absolute;
+          margin-top: 8px;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #f1f1f1;
+    padding: 40px 0 20px 16px;
+    display: block;
+
+    p {
+      display: none;
+      position: absolute;
+      font-size: 150px;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 700;
+      z-index: 1;
+      transform: translateY(620px);
+    }
+
+    .footer-icons {
+      position: relative;
+      z-index: 99;
+      a {
+        margin-right: 20px;
+        i {
+          opacity: 0.6;
+        }
+      }
+    }
+
+    h2 {
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.165em;
+      text-transform: uppercase;
+      margin-bottom: 29px;
+    }
+
+    form {
+      position: relative;
+      z-index: 99;
+      input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #c4c4c4;
+        padding-bottom: 16px;
+        padding-right: 154px;
+        margin-bottom: 28px;
+
+        &::placeholder {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 141.8%;
+          color: #000000;
+          opacity: 0.5;
+        }
+      }
+
+      i {
+        cursor: pointer;
+      }
+
+      button {
+        all: unset;
+        transform: translateX(-20px);
+      }
+    }
+
+    .lists {
+      margin-left: 0;
+      display: block;
+      margin-top: 42px;
+
+      .list-2 {
+        margin-left: 0;
+        margin-top: 25px;
+        z-index: 3;
+      }
+
+      strong {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.165em;
+        text-transform: uppercase;
+        color: #353535;
+      }
+
+      ul {
+        list-style: none;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 167.5%;
+        color: #7e7e7e;
+        max-width: 144px;
+        width: 100%;
+
+        a {
+          li {
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    background-color: #f1f1f1;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 167.5%;
+    color: #c4c4c4;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 24px;
+  }
+}
